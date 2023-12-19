@@ -454,3 +454,28 @@ nav {
     background: transparent;
     border-radius: 4px;
 }
+footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0px 20px;
+    font-size: 13px;
+}
+
+/* setting menu */
+.settings-menu{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 108%;
+    right: 5%;
+}
+.user-profile a{
+    font-size: 12px;
+    color: #1876f2;
+    text-decoration:none;
+}
