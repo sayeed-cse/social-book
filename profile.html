@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4a631f0fb4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header section start -->
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="images/logo.png" alt="" class="logo">
+                <ul>
+                    <li><a href=""><img src="images/notification.png" alt=""></a></li>
+                    <li><a href=""><img src="images/inbox.png" alt=""></a></li>
+                    <li><a href=""><img src="images/video.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="images/search.png" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="images/profile-pic.png" alt="">
+                </div>
+            </div>
+            <!-- dropdown setting menu-->
+            <div class="settings-menu" id="settingsMenuId">
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <a href="#">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="images/feedback.png" alt="">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help Us to Improve</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="setting-links">
+                        <img src="images/setting.png" alt="" class="setting-icon">
+                        <a href="">Settings & Privacy <img src="images/arrow.png" alt="" class="setting_link_img"></a>
+                    </div>
+                    <div class="setting-links">
+                        <img src="images/help.png" alt="" class="setting-icon">
+                        <a href="">Help & Support <img src="images/arrow.png" alt="" class="setting_link_img"></a>
+                    </div>
+                    <div class="setting-links">
+                        <img src="images/display.png" alt="" class="setting-icon">
+                        <a href="">Display & Accessibility <img src="images/arrow.png" alt=""
+                                class="setting_link_img"></a>
+                    </div>
+                    <div class="setting-links">
+                        <img src="images/logout.png" alt="" class="setting-icon">
+                        <a href="">Logout <img src="images/arrow.png" alt="" class="setting_link_img"></a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- header section ends -->
+
+    <!-- main section starts -->
+    <main class="profile-container">
+        <img src="images/cover.png" alt="" class="cover-img">
+    </main>
+    <!-- main section ends -->
+
+    <!-- footer section start -->
+    <footer>
+        <p>Copyright 2023 -CLHG- Abdullah Sayeed</p>
+    </footer>
+    <!-- footer section ends -->
+
+    <!-- script links -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
